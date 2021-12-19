@@ -25,7 +25,7 @@ p {
 	padding: 0 10px;
 }
 .image img {
-	display: block;
+	display:block;
 	width: 100%;
 	height: auto;
 	cursor: pointer;
@@ -35,37 +35,56 @@ p {
 	transition: 0.3s ease-in-out;
 }
 .image #zoom-In figure:hover img {
-	transform: scale(1.2);
-}
-
-a{
-	color: hotpink;
-	margin: 5%;
+	transform: scale(1.3);
 }
 
 h1{
 	color: hotpink;
-	font-size: 25px;
+	font-size: 24px;
 	font-family: ComicNeue;
 	background: rgb(247, 238, 241);
 	padding: 5px;
+	padding-left: 10px;
 	font-style:italic;
 }
+
+h2{
+	color: hotpink;
+	font-size: 20px;
+	font-family: ComicNeue;
+	background: rgb(247, 238, 241);
+	padding: 5px;
+	padding-left: 10px;
+	font-style:italic;
+}
+
 
 .container{
 	display: flex;
 	justify-content: center;
 }
 
-.itembox{
+.linkbox{
 	display: flex;
 	justify-content: center;
 	flex-flow:wrap;
-	color: hotpink;
 	background: rgb(247, 238, 241);
+}
+
+.linkbox a{
+	font-size:medium;
+	margin: 10px;
+	color: rgb(25, 127, 223);
+	transform: scale(1);
+	transition: 0.2s ease-in-out;
 	font-style: italic;
-	font-size: large;
+	font-size: normal;
 	font-family: ComicNeue;
+}
+
+.linkbox a:hover{
+	color: rgb(40, 194, 255);
+	transform: scale(1.15);
 }
 
 .smallbox{
@@ -79,23 +98,27 @@ h1{
 	padding-block: 3px;
 }
 
-.itembox a{
-	color: rgb(25, 127, 223);
-	transform: scale(1);
-	transition: 0.2s ease-in-out;
-}
-
-.itembox a:hover{
-	color: rgb(40, 194, 255);
-	transform: scale(1.15);
+.infobox{
+	display: flex;
+	color: rgb(40, 40, 40);
+	font-size: medium;
+	font-style: italic;
+	font-family: ComicNeue;
+	padding-block: 3px;
 }
 
 .meowicon{
 	margin-left: 15px;
 	width: 25%;
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.meowicon:hover{
+	transform: scale(0.9);
 }
 
-
-
-
+.rightstext{
+	font-size: small;
+	color: rgb(40, 40, 40);
+}
 
