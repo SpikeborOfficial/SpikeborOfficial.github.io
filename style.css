@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	background-color: rgb(168, 223, 236);
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+.image {
+	display: inline-block;
+	text-align:center;
+	width: 33%;
+	float:left;
+}
+figure {
+	overflow: hidden;
+	margin: 0 10px;
+}
+h3 {
+	color: #000;
+	margin-top: 40px;
+}
+p {
+	padding: 0 10px;
+}
+.image img {
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.image #zoom-In figure img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.image #zoom-In figure:hover img {
+	transform: scale(1.2);
+}
+
+a{
+	color: hotpink;
+	margin: 5%;
+}
+
+h1{
+	color: hotpink;
+	font-size: 25px;
+	font-family: cursive;
+	background: rgb(247, 238, 241);
+	padding: 5px;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+.itembox{
+	display: flex;
+	justify-content: center;
+	flex-flow:wrap;
+	color: hotpink;
+	background: rgb(247, 238, 241);
+	font-style: italic;
+	font-size: large;
+	font-family: cursive;
+}
+
+.smallbox{
+	display: flex;
+	justify-content: center;
+	color: rgb(255, 245, 250);
+	background: rgb(255, 92, 146);
+	font-style: italic;
+	font-size: large;
+	font-family: cursive;
+	padding-block: 3px;
+}
+
+.itembox a{
+	color: rgb(25, 127, 223);
+	transform: scale(1);
+	transition: 0.2s ease-in-out;
+}
+
+.itembox a:hover{
+	color: rgb(40, 194, 255);
+	transform: scale(1.15);
+}
+
+.meowicon{
+	margin-left: 15px;
+	width: 25%;
+}
+
+
+
+
+
