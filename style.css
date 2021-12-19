@@ -1,13 +1,15 @@
+@font-face {
+	font-family: ComicNeue;
+	src: url('fonts/ComicNeue-Regular.ttf')
+  }
+
 body {
 	margin: 0;
 	padding: 0;
 	font-size: 20px;
 	background-color: rgb(168, 223, 236);
 }
-h1 {
-	font-size: 40px;
-	text-align: center;
-}
+
 .image {
 	display: inline-block;
 	text-align:center;
@@ -18,10 +20,7 @@ figure {
 	overflow: hidden;
 	margin: 0 10px;
 }
-h3 {
-	color: #000;
-	margin-top: 40px;
-}
+
 p {
 	padding: 0 10px;
 }
@@ -47,9 +46,10 @@ a{
 h1{
 	color: hotpink;
 	font-size: 25px;
-	font-family: cursive;
+	font-family: ComicNeue;
 	background: rgb(247, 238, 241);
 	padding: 5px;
+	font-style:italic;
 }
 
 .container{
@@ -65,7 +65,7 @@ h1{
 	background: rgb(247, 238, 241);
 	font-style: italic;
 	font-size: large;
-	font-family: cursive;
+	font-family: ComicNeue;
 }
 
 .smallbox{
@@ -75,7 +75,7 @@ h1{
 	background: rgb(255, 92, 146);
 	font-style: italic;
 	font-size: large;
-	font-family: cursive;
+	font-family: ComicNeue;
 	padding-block: 3px;
 }
 
