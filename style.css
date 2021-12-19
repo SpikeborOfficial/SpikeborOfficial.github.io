@@ -50,14 +50,13 @@ h1{
 
 h2{
 	color: hotpink;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: ComicNeue;
 	background: rgb(247, 238, 241);
 	padding: 5px;
 	padding-left: 10px;
 	font-style:italic;
 }
-
 
 .container{
 	display: flex;
@@ -78,7 +77,7 @@ h2{
 	transform: scale(1);
 	transition: 0.2s ease-in-out;
 	font-style: italic;
-	font-size: normal;
+	font-size: 14px;
 	font-family: ComicNeue;
 }
 
@@ -118,7 +117,7 @@ h2{
 }
 
 .rightstext{
-	font-size: small;
+	font-size: 14px;
 	color: rgb(40, 40, 40);
 }
 
