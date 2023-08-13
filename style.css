@@ -60,12 +60,33 @@ h2{
 .container{
 	display: flex;
 	justify-content: center;
+	width: 100%;
+	max-width:100%;
+	align-items:stretch;
+}
+.container25{
+	display: flex;
+	justify-content: center;
+	width: 25%;
+	max-width:25%;
+	align-items:stretch;
+}
+
+.item25{
+	width: 25%;
+	height: auto;
+	align-self: center;
+}
+.itemfit{
+	width: 100%;
+	height: auto;	
+	align-self: center;
 }
 
 .linkbox{
-	display: flex;
+	display:flex;
 	justify-content: center;
-	flex-flow:wrap;
+	flex-flow:wrap;	
 	background: rgb(247, 238, 241);
 }
 
@@ -107,12 +128,11 @@ h2{
 }
 
 .meowicon{
-	display:box;
+	display:flex;
 	margin-left: 2%;
 	margin-right: 2%;
-	width: auto;
-	height:256px;
-	transform: scale(1);
+	width: 100%;
+	height:auto;
 	transition: 0.3s ease-in-out;
 }
 .meowicon:hover{
